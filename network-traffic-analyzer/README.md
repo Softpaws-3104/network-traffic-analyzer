@@ -24,10 +24,12 @@ built using Kali Linux, Scapy, tcpdump and Wireshark.
 
 Run the analyzer:
 
+    cd network-traffic-analyzer
     python3 analyzer.py
 
 The script reads capture.pcap and generates
 a traffic report in CSV format.
+reports/traffic_report.csv
 
 ## Project Status
 
